@@ -46,7 +46,7 @@ console.log(parent)//JS Object
 
 //JSX(transplied before it reachs JS Engine)-Parcel-Babel
 
-// JSX => React.createElement => React Element-JS Object => HTML Element
+// JSX => Babel transplies it to React.createElement => React Element-JS Object => HTML Element
 const jsxParent =
     <div id="parent">
         <div id="child">
